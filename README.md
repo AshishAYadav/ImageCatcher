@@ -6,7 +6,7 @@ version 1.0
  
  <a href="https://chrome.google.com/webstore/detail/imagecatcher/behohaaniomgmcdkjjgmndgnhaipkkkd">
   <input type="button" value="Download">
-  click here to download from Chrome Store
+  Click here to download from Chrome Store
   </a>
        
         
