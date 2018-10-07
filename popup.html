@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageCatcher</title>
+    <link rel="shortcut icon" href="images/ImgCatcher_32.png" type="image/x-icon">
+    <style>
+        header{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        img{
+            display: inline-block;
+            padding: 5px;
+            width: 3.2rem;
+        }
+        a{
+            text-decoration: none;
+            color: none;
+        }
+        .button{
+            position: relative;
+            height: 50px;
+            width: 100px;
+            /* padding: 5px; */
+            /* margin: auto; */
+            top: 20%;
+            /* align-items: center; */
+            left: 35%;
+        }
+        h5{
+            display: block;
+            position: relative;
+            top: 5%;
+            padding: 0.5rem;
+        }
+        .title{
+            vertical-align: middle;
+            color: #0170bf;
+            display: inline-block;
+            margin-top: -2rem;
+
+        }
+        div.body{
+            width: 20rem;
+            height: 10rem;
+            background: #0170bf;
+            padding: 0;
+        }
+        div.footer{
+            width: 100%;
+            height: 2rem;
+            background: #0170bf;
+            padding: 0;
+            margin-top: 5px;
+            text-align: center;
+
+        }
+
+        .copy,.body{
+            color: #ffffff;
+            vertical-align: middle;
+            padding-top: 5px;
+        }
+        .body *{
+            display: block;
+        }
+
+        body{
+            background: #ffffff;
+            border: solid 0.3px #a7a7a7;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="https://imgcatcher.ml" target="_blank">
+        <img src="images/ImgCatcher_64.png" alt="ImgCatcher">
+        <div class="title">
+                <h1 style="display:inline-block;margin-top:0px;">ImageCatcher</h1>        
+        </div>
+        </a>
+    </header>
+    <div class="body">
+        <input class="button" type="button" id="download-button" value="Download" />
+                <!-- This will hold the local download file -->
+        <h5>Click on above download Button to zip all images of this tab and download them. <br>please allow download multiple files if popup</h5>
+    </div>
+    <div class="footer">
+        <a href="https://linkedin.com/in/ashishayadav" target="_blank">
+        <h3 class="copy">Copyright &copy; Ashish Yadav</h3>
+         </a>
+        <a href="https://github.com/AshishAYadav/ImageCatcher" target="_blank">
+
+        <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub-Mark" >
+        </a>
+    </div>
+    <!--<button id="changeColor"></button>-->
+    <script src="popup.js"></script>
+
+</body>
+</html>
